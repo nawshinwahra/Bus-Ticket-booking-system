@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form method="post" action="registration.php" target="php">
+<table border="0" bordercolor="white"  bgcolor="#cccc99" height="200px" width="70%" align="center" >
+
+<tr valign="top" style="height:40px;">
+<td colspan="4"><center><h2> Welcome to the sign up page</h2></center></td>
+</tr>
+
+<tr>
+<td>First Name </td>
+<td><input type="text" name="frist_name" size="15" maxlength="15"/></td>
+<td>Last Name</td> 
+<td><input type="text" name="last_name" size="15" maxlength="15"/></td>
+</tr>
+
+<tr>
+<td>User Name</td>
+<td colspan="3"><input type="text" name="user_name" size="15" maxlength="15"/></td>
+</tr>
+
+<tr >
+<td>Password</td>
+<td colspan="3"><input type="password" name="password" size="15" maxlength="10"/>* max 15 chars</td>
+</tr>
+
+<tr>
+<td>Confirm Password</td>
+<td colspan="3"><input type="password" name="confi_pass" size="15" maxlength="10"/></td>
+</tr>
+
+<tr style="height:40px;">
+<td>Gender</td>
+<td colspan="3"><input type="radio" name="gender" value="male" checked>Male<input type="radio" name="sex" value="female"> Female</td>
+</tr>
+
+
+
+
+
+<tr>
+<td> Telephone No.</td>
+<td> <input type="text" name="phone" size="15" maxlength="13"/></td>
+</tr>
+
+
+<tr>
+<td colspan="1" style="height:40px">Select a Question </td>
+<td colspan="2">
+
+<select name="question">
+<option value="0">what is your pet's name</option>
+<option value="1">what is your mother's maiden name</option>
+<option value="2" >who is your best childhood friend</option>
+</select>
+
+</td>
+</tr> 
+
+<tr>
+<td> </td>
+<td colspan="3"><textarea rows="3" cols="40" name="ans">   </textarea></td>
+</tr>
+<td>Alternate Email</td>
+<td colspan="3"><input type="text" name="altemail" size="15" maxlength="25"/>  &nbsp; &nbsp; If any, for password recovery</td>
+</tr>
+
+
+
+
+<tr>
+<tr style="height:40px;">
+<td colspan="4"><center><input type="submit"  value="Submit"/></center></td>
+</tr>
+
+</form>
+</table>
+
+</body>
+</html>
